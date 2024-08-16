@@ -17,7 +17,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="botones.html">Botones</a>
@@ -26,7 +26,7 @@
                 <a class="nav-link " aria-current="page" href="columnas.html">Columnas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="formularios.html">Formularios</a>
+                <a class="nav-link active" aria-current="page" href="formularios.html">Formularios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="iconos.html">Iconos</a>
@@ -58,9 +58,46 @@
         </div>
       </nav>
       <div class="container mt-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil perspiciatis quibusdam, voluptatem libero soluta deleniti eaque, minima cumque beatae vero vitae illo exercitationem hic iure ea corporis reiciendis assumenda.
-      <br><br>
-      Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <br><br><hr>
+
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Password</label>
+          </div>
+          <div class="col-auto">
+            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+          </div>
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text">
+              Must be 8-20 characters long.
+            </span>
+          </div>
+        </div>
+          <hr>
+          <br><br>
+          <div class="row"> 
+            <div class="col-md-4">
+              <input type="text" name="" id="" placeholder="Nombre" class="form-control"> 
+            </div>
+          </div>
+          <br><br><br><br><br>
       </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
